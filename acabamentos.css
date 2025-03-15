@@ -1,0 +1,115 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.topsec{
+    display: flex;
+    align-content: center;
+    background-color: black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 100vw;
+    margin: auto 0;
+}
+
+.leftTop{
+    display: flex;
+    flex: 1;
+}
+
+.nameTitle{
+    display: flex;
+    flex: 1;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rightTop{
+    display: flex;
+    align-self: center;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+button{ 
+    display: block;
+    background-color: #cecece;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    border: none;
+    color: #9e9d9d;
+}
+
+button:hover{
+    background-color: #6c6c6c;
+    cursor: pointer;
+}
+
+input{
+    display: block;
+    background-color: #cecece;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    border: none;
+}
+
+.barra{
+    width: 100vw;
+    height: 3px;
+    background-color: aliceblue;
+}
+
+h2{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.images{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+img{
+    height: 350px;
+    width: 263px;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.info h3{
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.info ul{
+    color: #9e9d9d;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 18px;
+}
